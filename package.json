@@ -1,0 +1,33 @@
+{
+  "name": "express-redis-mongodb",
+  "version": "1.0.0",
+  "description": "This is a Testing project of Redis with Expressjs and MongoDB",
+  "main": "src/index.js",
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Md. Minar Munshi",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
