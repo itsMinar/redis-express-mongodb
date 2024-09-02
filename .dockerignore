@@ -1,0 +1,45 @@
+# Node.js modules
+node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+*.log.*
+log.txt
+
+# Docker files
+Dockerfile*
+docker-compose.yml
+.dockerignore
+
+# Git files
+.git
+.gitignore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swn
+
+# Editor and IDE directories
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+dist
+build
+coverage
